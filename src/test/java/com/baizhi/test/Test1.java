@@ -37,6 +37,8 @@ public class Test1 {
         while(m.find()){
             count ++;
 //            第二次出现跳出循环
+
+            new Test1();
             if(count==2){
                 break;
             }
